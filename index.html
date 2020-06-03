@@ -15,18 +15,18 @@
 <body>
   <nav class="white" role="navigation">
     <!-- <div class="nav-wrapper container"> -->
-      <ul class="center hide-on-med-and-down">
-        <li><a href="#my-skills">My skills</a></li>
-        <li><a href="#my-projects">My projects</a></li>
-        <li><a href="#">Contact me</a></li>
-      </ul>
+    <ul class="center hide-on-med-and-down">
+      <li><a href="#my-skills">My skills</a></li>
+      <li><a href="#my-projects">My projects</a></li>
+      <li><a href="#">Contact me</a></li>
+    </ul>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#my-skills">My skills</a></li>
-        <li><a href="#my-projects">My projects</a></li>
-        <li><a href="#">Contact me</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="sidenav">
+      <li><a href="#my-skills">My skills</a></li>
+      <li><a href="#my-projects">My projects</a></li>
+      <li><a href="#">Contact me</a></li>
+    </ul>
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <!-- </div> -->
   </nav>
 
@@ -45,7 +45,7 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="pic/background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -100,7 +100,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="pic/background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -109,14 +109,17 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id
-            nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies
-            eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et
-            pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed.
-            Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam
-            eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia Curae;</p>
+          <h4>My projects</h4>
+          <div class="carousel">
+            <a class="carousel-item" href="http://your-webdev.com/template/"><img src="./pic/template.jpg">Template HTML
+              + CSS</a>
+            <a class="carousel-item" href="http://your-webdev.com/landingpage/"><img src="./pic/Landing.jpg">Landingpage
+              promo</a>
+            <a class="carousel-item" href="https://hidden-ridge-36849.herokuapp.com/"><img
+                src="./pic/todos.jpg">Node.Js, Express, Materialize</a>
+            <a class="carousel-item" href="https://hidden-ridge-36849.herokuapp.com/"><img
+                src="./pic/septic.jpg">Bootstrap, JavaScript</a>
+          </div>
         </div>
       </div>
 
@@ -132,7 +135,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="pic/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer teal">
@@ -147,21 +150,9 @@
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
           <h5 class="white-text">Connect</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
           </ul>
         </div>
       </div>
@@ -179,6 +170,7 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script src="js/elevator.js"></script>
+  <script src="js/carousel.js"></script>
 
 </body>
 
