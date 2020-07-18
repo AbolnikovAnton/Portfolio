@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     setInterval(function () {
         $('.carousel').carousel('next');
-    }, 2500);
+    }, 3500);
 });
 
 $('.carousel.carousel-slider').carousel({
