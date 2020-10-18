@@ -1,14 +1,10 @@
 $(document).ready(function () {
     $('.carousel').carousel();
-
-    setInterval(function () {
-        $('.carousel').carousel('next');
-    }, 3500);
-});
-
-$('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true,
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true,
+        duration: 200
+    });
 });
 
 
